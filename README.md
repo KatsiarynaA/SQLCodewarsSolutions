@@ -28,3 +28,10 @@ select c.*
 from companies c
 order by c.employees desc
 ```
+
+* https://www.codewars.com/kata/sql-basics-simple-sum/train/sql
+
+```SQL
+select sum(age) as age_sum
+from people
+```
