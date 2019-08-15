@@ -51,3 +51,11 @@ select name, country
 from travelers
 where not (country = 'Canada' or country = 'Mexico' or country = 'USA')
 ```
+
+* https://www.codewars.com/kata/adults-only-sql-for-beginners-number-1/train/sql
+
+```SQL
+select name, age
+from users
+where age >= 18
+```
