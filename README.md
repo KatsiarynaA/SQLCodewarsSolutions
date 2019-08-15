@@ -43,3 +43,11 @@ insert into participants (name, age, attending) values ('Bob', '27', true);
 select *
 from participants
 ```
+
+* https://www.codewars.com/kata/on-the-canadian-border-sql-for-beginners-number-2/train/sql
+
+```SQL
+select name, country
+from travelers
+where not (country = 'Canada' or country = 'Mexico' or country = 'USA')
+```
