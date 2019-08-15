@@ -35,3 +35,11 @@ order by c.employees desc
 select sum(age) as age_sum
 from people
 ```
+
+* https://www.codewars.com/kata/register-for-the-party-sql-for-beginners-number-3/train/sql
+
+```SQL
+insert into participants (name, age, attending) values ('Bob', '27', true);
+select *
+from participants
+```
