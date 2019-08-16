@@ -88,3 +88,11 @@ from people
 select distinct age
 from people
 ```
+
+* https://www.codewars.com/kata/collect-tuition-sql-for-beginners-number-4/train/sql
+
+```SQL
+select *
+from students
+where tuition_received is false
+```
