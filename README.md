@@ -81,3 +81,10 @@ where IsActive
 select min(age) as age_min, max(age) as age_max
 from people
 ```
+
+* https://www.codewars.com/kata/sql-basics-simple-distinct/train/sql
+
+```SQL
+select distinct age
+from people
+```
