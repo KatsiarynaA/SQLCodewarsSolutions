@@ -74,3 +74,10 @@ select *
 from students
 where IsActive
 ```
+
+* https://www.codewars.com/kata/sql-basics-simple-min-slash-max/train/sql
+
+```SQL
+select min(age) as age_min, max(age) as age_max
+from people
+```
