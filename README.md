@@ -66,3 +66,11 @@ where age >= 18
 select mod(number1, number2) as mod
 from decimals
 ```
+
+* https://www.codewars.com/kata/1-find-all-active-students/train/sql
+
+```SQL
+select *
+from students
+where IsActive
+```
