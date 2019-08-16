@@ -96,3 +96,10 @@ select *
 from students
 where tuition_received is false
 ```
+
+* https://www.codewars.com/kata/multiply/train/sql
+
+```SQL
+select (price * amount) as total 
+from items
+```
