@@ -111,3 +111,10 @@ select *
 from people
 where age > 50
 ```
+
+* https://www.codewars.com/kata/sql-grasshopper-select-columns/train/sql
+
+```SQL
+select custid, custname, custstate 
+from customers 
+```
