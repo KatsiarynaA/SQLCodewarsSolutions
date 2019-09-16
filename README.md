@@ -103,3 +103,11 @@ where tuition_received is false
 select (price * amount) as total 
 from items
 ```
+
+* https://www.codewars.com/kata/sql-basics-simple-where-and-order-by/train/sql
+
+```SQL
+select *
+from people
+where age > 50
+```
