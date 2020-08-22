@@ -3,118 +3,111 @@
 * https://www.codewars.com/kata/easy-sql-lowercase/train/sql
 
 ```SQL
-select id, name, birthday, lower(race) as race
-from demographics
+SELECT id, name, birthday, lower(race) AS race
+FROM demographics;
 ```
 
 * https://www.codewars.com/kata/easy-sql-square-root-and-log/train/sql
 
 ```SQL
-select sqrt(number1) as root, log(number2) as log
-from decimals
+SELECT sqrt(number1) AS root, log(number2) AS log
+FROM decimals;
 ```
 
 * https://www.codewars.com/kata/easy-sql-rounding-decimals/train/sql
 
 ```SQL
-select floor(number1) as number1, ceiling(number2) as number2
-from decimals
+SELECT floor(number1) AS number1, ceiling(number2) AS number2
+FROM decimals;
 ```
 
 * https://www.codewars.com/kata/easy-sql-ordering/train/sql
 
 ```SQL
-select c.*
-from companies c
-order by c.employees desc
+SELECT c.*
+FROM companies c
+order by c.employees desc;
 ```
 
 * https://www.codewars.com/kata/sql-basics-simple-sum/train/sql
 
 ```SQL
-select sum(age) as age_sum
-from people
+SELECT SUM(age) AS age_sum
+FROM people;
 ```
 
 * https://www.codewars.com/kata/register-for-the-party-sql-for-beginners-number-3/train/sql
 
 ```SQL
 insert into participants (name, age, attending) values ('Bob', '27', true);
-select *
-from participants
+SELECT *
+FROM participants;
 ```
 
 * https://www.codewars.com/kata/on-the-canadian-border-sql-for-beginners-number-2/train/sql
 
 ```SQL
-select name, country
-from travelers
-where not (country = 'Canada' or country = 'Mexico' or country = 'USA')
+SELECT name, country
+FROM travelers
+WHERE not (country = 'Canada' or country = 'Mexico' or country = 'USA');
 ```
 
 * https://www.codewars.com/kata/adults-only-sql-for-beginners-number-1/train/sql
 
 ```SQL
-select name, age
-from users
-where age >= 18
+SELECT name, age
+FROM users
+WHERE age >= 18;
 ```
 
 * https://www.codewars.com/kata/sql-basics-mod/train/sql
 
 ```SQL
-select mod(number1, number2) as mod
-from decimals
+SELECT mod(number1, number2) AS mod
+FROM decimals;
 ```
 
 * https://www.codewars.com/kata/1-find-all-active-students/train/sql
 
 ```SQL
-select *
-from students
-where IsActive
+SELECT *
+FROM students
+WHERE IsActive;
 ```
 
 * https://www.codewars.com/kata/sql-basics-simple-min-slash-max/train/sql
 
 ```SQL
-select min(age) as age_min, max(age) as age_max
-from people
+SELECT min(age) AS age_min, max(age) AS age_max
+FROM people;
 ```
 
 * https://www.codewars.com/kata/sql-basics-simple-distinct/train/sql
 
 ```SQL
-select distinct age
-from people
+SELECT distinct age
+FROM people;
 ```
 
 * https://www.codewars.com/kata/collect-tuition-sql-for-beginners-number-4/train/sql
 
 ```SQL
-select *
-from students
-where tuition_received is false
-```
-
-* https://www.codewars.com/kata/multiply/train/sql
-
-```SQL
-select (price * amount) as total 
-from items
+SELECT *
+FROM students
+WHERE tuition_received is false;
 ```
 
 * https://www.codewars.com/kata/sql-basics-simple-where-and-order-by/train/sql
 
 ```SQL
-select *
-from people
-where age > 50
+SELECT *
+FROM people
+WHERE age > 50;
 ```
 
 * https://www.codewars.com/kata/sql-grasshopper-select-columns/train/sql
 
 ```SQL
-select custid, custname, custstate 
-from customers 
+SELECT custid, custname, custstate 
+FROM customers;
 ```
