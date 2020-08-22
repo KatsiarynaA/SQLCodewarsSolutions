@@ -26,7 +26,7 @@ FROM decimals;
 ```SQL
 SELECT c.*
 FROM companies c
-order by c.employees desc;
+ORDER BY c.employees DESC;
 ```
 
 * https://www.codewars.com/kata/sql-basics-simple-sum/train/sql
@@ -39,7 +39,7 @@ FROM people;
 * https://www.codewars.com/kata/register-for-the-party-sql-for-beginners-number-3/train/sql
 
 ```SQL
-insert into participants (name, age, attending) values ('Bob', '27', true);
+INSERT INTO participants (name, age, attending) VALUES ('Bob', '27', true);
 SELECT *
 FROM participants;
 ```
@@ -49,7 +49,7 @@ FROM participants;
 ```SQL
 SELECT name, country
 FROM travelers
-WHERE not (country = 'Canada' or country = 'Mexico' or country = 'USA');
+WHERE not (country = 'Canada' OR country = 'Mexico' OR country = 'USA');
 ```
 
 * https://www.codewars.com/kata/adults-only-sql-for-beginners-number-1/train/sql
@@ -85,7 +85,7 @@ FROM people;
 * https://www.codewars.com/kata/sql-basics-simple-distinct/train/sql
 
 ```SQL
-SELECT distinct age
+SELECT DISTINCT age
 FROM people;
 ```
 
