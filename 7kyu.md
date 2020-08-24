@@ -50,3 +50,15 @@ FROM books
 ORDER BY copies_sold DESC
 LIMIT 5;
 ```
+
+
+* Countries Capitals for Trivia Night (SQL for Beginners #6)
+* https://www.codewars.com/kata/5e5f09dc0a17be0023920f6f/train/sql
+
+```SQL
+SELECT capital
+FROM countries
+WHERE continent IN ('Africa', 'Afrika') AND country LIKE 'E%'
+ORDER BY capital
+LIMIT 3;
+```

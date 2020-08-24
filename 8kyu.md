@@ -86,7 +86,7 @@ WHERE age >= 18;
 ```SQL
 SELECT name, country
 FROM travelers
-WHERE not (country = 'Canada' OR country = 'Mexico' OR country = 'USA');
+WHERE NOT (country = 'Canada' OR country = 'Mexico' OR country = 'USA');
 ```
 
 
