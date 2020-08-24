@@ -17,7 +17,7 @@ FROM nums;
 SELECT race, COUNT(race)
 FROM demographics
 GROUP BY race
-ORDER BY COUNT(race) DESC
+ORDER BY COUNT(race) DESC;
 ```
 
 
@@ -27,7 +27,7 @@ ORDER BY COUNT(race) DESC
 ```SQL
 SELECT age, COUNT(age) AS people_count
 FROM people
-GROUP BY age
+GROUP BY age;
 ```
 
 
@@ -37,5 +37,16 @@ GROUP BY age
 ```SQL
 SELECT p.*, c.name AS company_name
 FROM products p
-JOIN companies c ON p.company_id = c.id
+JOIN companies c ON p.company_id = c.id;
+```
+
+
+* Best-Selling Books (SQL for Beginners #5)
+* https://www.codewars.com/kata/591127cbe8b9fb05bd00004b/train/sql
+
+```SQL
+SELECT *
+FROM books
+ORDER BY copies_sold DESC
+LIMIT 5;
 ```
