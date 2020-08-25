@@ -71,3 +71,14 @@ LIMIT 3;
 SELECT POW(number1, number2) AS result
 FROM decimals;
 ```
+
+
+* SQL Basics: Simple JOIN with COUNT
+* https://www.codewars.com/kata/580918e24a85b05ad000010c/train/sql
+
+```SQL
+SELECT p.*, COUNT(t) AS toy_count
+FROM people p
+JOIN toys t ON p.id = t.people_id
+GROUP BY p.id;
+```
