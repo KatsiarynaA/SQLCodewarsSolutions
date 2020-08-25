@@ -82,3 +82,12 @@ FROM people p
 JOIN toys t ON p.id = t.people_id
 GROUP BY p.id;
 ```
+
+
+* SQL: Concatenating Columns
+* https://www.codewars.com/kata/59440034e94fae05b2000073/train/sql
+
+```SQL
+SELECT CONCAT_WS(' ', prefix, first, last, suffix) AS title
+FROM names;
+```
