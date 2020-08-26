@@ -91,3 +91,11 @@ GROUP BY p.id;
 SELECT CONCAT_WS(' ', prefix, first, last, suffix) AS title
 FROM names;
 ```
+
+
+* Hello SQL World!
+* https://www.codewars.com/kata/581283eb0a5fb13e06000020/train/sql
+
+```SQL
+SELECT 'hello world!' AS "Greeting";
+```
